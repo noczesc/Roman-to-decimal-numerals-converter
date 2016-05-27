@@ -20,7 +20,5 @@ for i in range(len(roman)):
             subtract.append(sublist[index])
 
 else:
-    print(add)
-    print(subtract)
     realnumber = sum(add) + sum(subtract)*2
     print("Your number is " + str(realnumber) + " in decimal")
